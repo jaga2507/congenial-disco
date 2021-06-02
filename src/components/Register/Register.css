@@ -1,0 +1,115 @@
+
+.login-card1{
+    border-radius: 10px;
+    border-top: 7px solid #762fbe;
+    background-color: white;
+    width: 400px;
+    min-height: 5vh;
+    padding: 50px 55px 40px;
+    margin: auto;
+    margin-top: 13rem;
+}
+.logos img{
+    zoom: 0.5;
+    margin-left: 3rem;
+}
+.sign-tittle{
+    color: #2f1d58;
+    font-size: 25px;
+    font-weight: 700;
+    margin-top: 1rem;
+}
+.sign-for{
+    color: #2f1d58;
+    margin-top: 10px;
+}
+.google-login Button{
+    background-color: blue;
+    width: 100%;
+    height: 5rem;
+    margin-top: 1rem;
+    cursor: pointer;    
+    border-radius: 10px;
+    margin-bottom: 1rem;
+}
+.google-login Button:hover{
+    background-color: blue;
+}
+.google-icon{
+    display: flex;
+}
+.google-icon img{
+    background-color: white;
+    width: 2rem;
+    border-radius: 50%;
+    margin-right: 5rem;
+    padding: 15px;
+    zoom: 0.8;
+}
+.google-icon div{
+    margin: 9px 0 0 -30px;
+    color: white;
+    font-weight: 900 !important;
+    font-size: 20px;
+}
+.Email-login Button{
+    background-color: rgba(226, 226, 226, 0.288);
+    width: 100%;
+    height: 5rem;
+    margin-top: 1rem;
+    cursor: pointer;
+    border: 2px solid rgba(128, 128, 128, 0.397);
+    border-radius: 10px;
+    margin-bottom: 1rem;
+}
+.Email-icon{
+    display: flex;
+}
+.Email-login Button:hover{
+    background-color: rgba(128, 128, 128, 0.185);
+}
+.Email-icon span{
+    background-color: white;
+    width: 2rem;
+    border-radius: 50%;
+    margin-right: 5rem;
+    color: gray;
+    overflow: hidden;
+    padding: 15px 15px 8px 15px;
+    zoom: 0.8;
+}
+.Email-icon div{
+    margin: 9px 0 0 -30px;
+    color: black;
+    font-weight: 900 !important;
+    font-size: 20px;
+}
+.Link{
+    font-size: 14px;
+    color: gray;
+    cursor: pointer;
+    width: fit-content;
+}
+.Link:hover{
+    color: purple;
+}
+.text{
+    text-align: center;
+    margin-top: 1rem;
+    font-size: 17px;
+    color: rgb(255, 255, 255);
+}
+.content{
+    margin-top: 3rem;
+    font-size: 13px;
+    color: gray;
+}
+.content span{
+    color: gray;
+    cursor: pointer;
+    text-decoration: underline;
+    width: fit-content;
+}
+.content span:hover{
+    color: purple;
+}

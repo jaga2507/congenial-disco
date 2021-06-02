@@ -1,0 +1,155 @@
+body{
+    background-color: black !important;
+    padding: 0;
+    font-family: Shapiro,sans-serif;
+    margin: 0;
+    overflow-x: hidden;
+}
+.tab-main{
+    background-color: rgb(33, 33, 39);
+    padding: 16px 0px;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+}
+.Footer-main{
+    background-color: rgb(33, 33, 39);
+    padding: 16px 0px;
+    z-index: 1;
+    width: 100%;
+}
+.tab-img{
+    display: flex;
+    gap: 10px;
+}
+.tab-img img{
+    width: 9rem;
+    padding-left: 30px;
+    height: 2rem;
+    cursor: pointer;
+}
+.span{
+    background-color: rgb(50, 94, 255);
+    justify-content: center;
+    padding: 02px 5px;
+    width: fit-content;
+    max-height: 20px;
+    margin-top: 4px;
+    color: rgb(255, 255, 255);
+    zoom: 0.89;
+    letter-spacing: 2.2px;
+}
+.tab-buttons{
+    display: flex;
+    gap: 30px;
+    margin-top: 10px;
+    color: rgb(255, 255, 255);
+    letter-spacing: 2.2px;
+    font-size: 13px;
+    cursor: pointer;
+}
+.tab-buttons-Link{
+    gap: 30px;
+    color: rgb(255, 255, 255);
+    letter-spacing: 2.2px;
+    font-size: 13px;
+    cursor: pointer;
+    text-decoration: none;
+}
+.tab-buttons-Link:hover{
+    padding-bottom: 5px;
+    border-bottom-style: solid;
+    border-bottom-color: blue;
+    border-bottom-width: 3.1px;
+    width: fit-content;
+}
+.tab-buttons-Link:focus{
+    padding-bottom: 5px;
+    border-bottom-style: solid;
+    border-bottom-color: blue;
+    border-bottom-width: 3.1px;
+    width: fit-content;
+}
+.MuiGrid-grid-xs-2{
+    max-width: 20% !important;
+    flex-basis: 20% !important;
+}
+
+.navbar-nav li:hover > ul.dropdown-menu {
+    display: block;
+}
+.dropdown-submenu {
+    position:relative;
+}
+
+.login-main{
+    float: right;
+    display: flex;
+    gap: 30px;
+}
+.login{
+    text-decoration: none;
+}
+.sign-up{
+    background-color: rgb(50, 94, 255);
+    padding: 10px 5px;
+    width: fit-content;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    letter-spacing: 2.2px;
+}
+.get-in{
+    display: none ;
+    font-size: 10px;
+}
+.footermain{
+    color: gray;
+    margin-left: 2rem;
+    font-size: 12px;
+}
+.footermain div{
+    margin-top: 10px;
+}
+.footermain div span{
+    text-decoration: underline;
+}
+.footermain div span:hover{
+    color: rgba(255, 255, 255, 0.712);
+    cursor: pointer;
+}
+.footermain-right{
+    color: gray;
+    display: flex;
+    margin-right: 2rem;
+    margin-top: 1rem;
+    font-size: 13px;
+    float: right;
+}
+.footermain-right div{
+    margin-left: 3rem;
+}
+.logos-footer{
+    margin-top: 1rem;
+    float: right;
+    display: flex;
+    gap: 1rem;
+    margin-right: 1rem;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .tab-buttons{
+        display: none;
+    }
+    .sign-up{
+        display: none;
+    }
+    .get-in{
+        display: block;
+        background-color: rgb(50, 94, 255);
+        padding: 10px 5px;
+        width: 75px;
+        color: rgb(255, 255, 255);
+        letter-spacing: 2.2px;
+    }
+  }

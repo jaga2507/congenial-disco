@@ -1,0 +1,21 @@
+.collector{
+    display: flex;
+    border: 4px solid gray;
+    padding: 10px;
+    width: 90%;
+    margin-bottom: 1rem;
+}
+.collector:hover{
+    background-color: rgb(43, 43, 43);
+}
+.collector img{
+    width: 50px;
+}
+.collector div{
+    margin-top: 1rem;
+    cursor: pointer;
+    margin-left: 1rem;
+}
+.collector div:hover{
+    text-decoration: underline;
+}

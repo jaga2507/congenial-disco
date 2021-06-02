@@ -1,0 +1,298 @@
+.market-main{
+    padding-top: 2rem;
+    color: white;
+}
+.market-bg-img img{
+    width: 100%;
+    position: absolute;
+    height: 50vh;
+    opacity: 0.2;
+}
+.market-bg-star{
+    position: relative;
+}
+.market-bg-star img{
+    width: 10rem;
+    margin-top: 4rem;
+    margin-left: 20%;
+}
+.market-tittle{
+    font-size: 50px;
+    font-weight: 900;
+    text-align: center;
+}
+.MuiInputBase-root {
+    color: white !important;
+}
+.market-autocom{
+    text-align: center;
+}
+.MuiOutlinedInput-root input{
+    border-radius: 4px;
+    border: 1px solid white;
+}
+.market-look{
+    background-color: rgb(33, 33, 39);
+    width: 100%;
+    min-height: 20rem;
+}
+.flow{
+    display: flex;
+    justify-content: center;
+}
+.arrow img{
+    width: 5rem;
+}
+.transform img{
+    transform: rotate(180deg);
+    width: 5rem;
+}
+.text{
+    margin-left: 30px;
+    margin-top: 4rem;
+    font-size: 50px;
+    font-weight: bolder;
+}
+.market-card-main{
+    display: flex;
+    gap: 5rem;
+    margin-top: 3rem;
+    padding-bottom: 2rem;
+    justify-content: center;
+}
+.market-card{
+    width: 25rem;
+    height: 13rem;
+    overflow: hidden;
+    border: 1px solid gray;
+}
+.market-card img{
+    width: 25rem;
+    height: 13rem;
+    margin: 0;
+}
+.market-card img:hover{
+    transform: scale(1.5); 
+    transition: transform .4s;
+}
+.magic-bg{
+    height: 100%;
+    background-color: rgb(0, 119, 192);
+}
+.magic-bg img{
+    opacity: 0.5;
+    zoom: 2;
+    margin-top: -1.5rem;
+    margin-left: 4rem;
+    position: relative;
+}
+.magic-main{
+    width: 25rem;
+    height: 13rem;
+    overflow: hidden;
+    border: 1px solid gray;
+}
+.magic img{
+    position: absolute;
+    margin-top: -11rem;
+    margin-left: 5rem;
+    zoom: 0.8;
+}
+.magic img:hover{
+    transform: scale(1.5); 
+    transition: transform .4s;
+}
+.name-of-card{
+    font-size: 25px;
+    margin-top: 1rem;
+    font-weight: 900;
+}
+.diagonal img{
+    width: 15rem;
+    height: 2rem;
+    margin: 2rem 0 0 10%;
+}
+.latest-text{
+    font-size: small;
+    margin-left: 10%;
+    font-weight: 700;
+}
+.latest-card-main{
+    overflow: auto;
+    overflow-y: hidden;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    height: 15rem;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 2rem;
+}
+.latest-card{
+    border: 8px solid rgba(128, 128, 128, 0.301);
+    width: 25rem;
+    display: flex;
+    cursor: pointer;
+    line-height: 1.9;
+    height: 10rem;
+}
+.latest-card img{
+    width: 8rem;
+    margin: 0;
+}
+.latest-detials{
+    display: flex;
+    gap: 10px;
+}
+.latest-tit{
+    font-size: small;
+    font-weight: 700;
+}
+.latest-date{
+    font-size: 12px;
+}
+.latest-common{
+    font-size: 12px;
+    font-weight: 900;
+}
+.cc{
+    border: 1px solid white;
+    border-radius: 8px;
+    padding: 1px;
+}
+.line{
+    border-left: 1px solid white;
+    height: 70px;
+    margin-top: 10px;
+}
+.latest-purchase{
+    font-size: 14px;
+}
+.latest-tittle{
+    font-size: 45px;
+    margin-left: 10%;
+    font-weight: 900;
+}
+.latest-tittle span{
+    text-decoration: underline;
+}
+.latest-search-card{
+    border: 8px solid rgba(128, 128, 128, 0.301);
+    width: 25rem;
+    line-height: 1.9;
+    min-height: 25rem;
+    padding-bottom: 1rem;
+    cursor: pointer;
+}
+.latest-search-card img{
+    width: 15rem;
+    margin-top: 0;
+}
+.com{
+    display: flex;
+    gap: 10px;
+}
+.com img{
+    width: 20px;
+}
+.com-text{
+    font-size: 30px;
+    font-weight: bolder;
+}
+.hr{
+    width: 80%;
+    border-color: rgb(91, 94, 108);
+}
+.edit{
+    color: rgb(91, 94, 108);
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-family: Shapiro, sans-serif;
+}
+.latest-count{
+    font-size: 36px;
+    text-align: center;
+}
+.set{
+    padding-top: 2rem;
+}
+.latest-sub-tittle{
+    margin-left: 10%;
+    margin-top: 1rem;
+}
+.set-game-main{
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+}
+.set-game img{
+    width: 18rem;
+    margin-left: 0;
+    height: 18rem;
+    cursor: pointer;
+    margin-bottom: 1rem;
+    border: 1px solid rgb(91, 94, 108);
+}
+.set-name-of-card{
+    font-size: 21px;
+    font-weight: 900;
+}
+.set-sub-name-of-card{
+    font-size: small;
+    margin-top: 5px;
+}
+.set-look{
+    padding: 4rem 0 8rem 0;
+    margin-bottom: 1rem;
+}
+.set-card-pos-main{
+    width: 18rem;
+    height: 18rem;
+    overflow: hidden !important;
+    margin-bottom: 1rem;
+}
+.set-pos img{
+    width: 18rem;
+    position: absolute;
+    margin-left: 0;
+    height: 18rem;
+    margin-top: 0;
+    cursor: pointer;
+    margin-bottom: 1rem;
+    z-index: 0;
+    object-fit: cover;
+    border: 1px solid rgb(91, 94, 108);
+}
+.set-card-pos{
+    position: absolute;
+    width: 18rem;
+}
+.set-count{
+    float: right;
+    margin: 10px;
+    font-size: 35px;
+    font-weight: bolder;
+}
+.set-counter{
+    margin-top: 13rem;
+    font-size: 25px;
+    margin-left: 10px;
+}
+.set-card-name{
+    font-size: 35px;
+    margin-left: 10px;
+}
+.set-card-name span{
+    padding-bottom: 5px;
+    border-bottom-style: solid;
+    border-bottom-color: white;
+    border-bottom-width: 3.1px;
+    width: fit-content;
+}
+.setcardflex{
+    display: flex;
+    gap: 20px;
+    margin: auto;
+    justify-content: center;
+    margin-top: 1rem;
+}

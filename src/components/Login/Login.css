@@ -1,0 +1,104 @@
+
+.login-card{
+    border-radius: 10px;
+    border-top: 7px solid #762fbe;
+    background-color: white;
+    width: 400px;
+    min-height: 5vh;
+    padding: 50px 55px 40px;
+    margin: auto;
+    margin-top: 6rem !important;
+}
+.logos img{
+    zoom: 0.5;
+    margin-left: 3rem;
+}
+.sign-tittle{
+    color: #2f1d58;
+    font-size: 25px;
+    font-weight: 700;
+    margin-top: 1rem;
+}
+.sign-for{
+    color: #2f1d58;
+    margin-top: 10px;
+}
+.google-login Button{
+    background-color: blue;
+    width: 100%;
+    height: 5rem;
+    margin-top: 1rem;
+    cursor: pointer;    
+    border-radius: 10px;
+}
+.google-login Button:hover{
+    background-color: blue;
+}
+.google-icon{
+    display: flex;
+}
+.google-icon img{
+    background-color: white;
+    width: 2rem;
+    border-radius: 50%;
+    margin-right: 5rem;
+    padding: 15px;
+    zoom: 0.8;
+}
+.google-icon div{
+    margin: 9px 0 0 -30px;
+    color: white;
+    font-weight: 900 !important;
+    font-size: 20px;
+}
+.or{
+    color: gray;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.forgotpass{
+    font-size: 15px;
+    color: gray;
+    cursor: pointer;
+    margin-top: 1rem; 
+    width: fit-content;
+}
+.forgotpass:hover{
+    color: purple;
+}
+.sign-Button Button{
+    color: white;
+    background-color: purple;
+    padding: .8rem 3rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    font-weight: bolder !important;
+}
+.sign-Button Button:hover{
+    color: white;
+    background-color: rgb(112, 0, 112);
+}
+.text{
+    text-align: center;
+    margin-top: 1rem;
+    font-size: 17px;
+    color: rgb(94, 94, 94);
+}
+.Dialog{
+    width: 20rem !important;
+    text-align: center;
+    padding: 1rem 3rem;
+}
+.line{
+    border-bottom: 1px solid gray;
+}
+.text-content{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.reset-email Button{
+    border-radius: 15px !important;
+    padding: 1rem 1rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}

@@ -1,0 +1,610 @@
+.topshot-bg-img img{
+    position: absolute;
+    width: 100%;
+}
+.grid-content{
+    background-color: black;
+    width: 90%;
+    margin-top: 200px;
+    margin-left: 2rem;
+    margin-bottom: 16px;
+    padding: 28px 16px;
+    position: relative;
+    color: rgb(255, 255, 255);
+}
+.content-tittle{
+    margin: 0px 0px 20px;
+    font-weight: 1000;
+    font-size: 77px;
+    line-height: 77px;
+    letter-spacing: 3px;
+}
+.content{
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 25px;
+}
+.Button-event{
+    margin-left: 2rem;
+    margin-top: 2rem;
+}
+.Button-event Button{
+    background-color:  rgb(50, 94, 255);
+    color: white;
+    height: 3rem;
+    padding: 10px 20px;
+    letter-spacing: 2.2px;
+}
+.Button-event Button:hover{
+    background-color:  rgb(50, 94, 255);
+    color: white;
+}
+.grid-video{
+    background-color: black;
+    width: 88%;
+    margin: 150px 0 16px 2rem;
+    position: relative;
+    color: rgb(255, 255, 255);
+}
+.video-player{
+    width: 100%;
+}
+.video-player:focus{
+    outline: none !important;
+}
+.profiles{
+    display: flex;
+    margin: 3rem 0 0 3rem;
+}
+.profiles img{
+    width: 50px;
+    border-radius: 50%;
+    margin-left: -10px;
+}
+.joined-fans{
+    color: rgb(255, 255, 255);
+    margin: 1rem 0 0 3rem;
+}
+.importent-table{
+    border: 5px solid white;
+    position: absolute;
+    width: 80%;
+    padding-left: 4rem;
+    overflow: hidden;
+    margin-left: 6rem;
+    background-color: black;
+    margin-bottom: 1rem;
+    margin-top: 5rem;
+    height: 13rem;
+}
+.first-item{
+    text-align: center;
+}
+.item-hover{
+    width: 10rem;
+}
+.item-hover:hover{
+    zoom: 1.1;
+    cursor: pointer;
+}
+.first-item img{
+    width: 10rem;
+    margin-top: .5rem;
+}
+.item-name{
+    color: rgb(255, 255, 255);
+    font-size: 35px;
+    font-weight: 1000;
+    letter-spacing: 3px;
+    margin-top: .2rem;
+    
+}
+.item-tittle{
+    color: rgb(255, 255, 255);
+    margin-top: 10px;
+    font-size: 19px;
+}
+.table-background{
+    margin-top: 12rem;
+    padding-top: 10rem;
+    background-color: rgb(33, 33, 39);
+}
+.select-text{
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    font-weight: 900;
+}
+.MuiGrid-spacing-xs-10 > .MuiGrid-item {
+    margin-left: 4rem !important;
+}
+.select-tittle{
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 3rem;
+}
+.western-teams img{
+    width: 4rem;
+    margin-left: 1rem;
+}
+.packBGmain{
+    background-color: rgb(33, 33, 39);
+}
+.packBG{
+    position: absolute;
+    width: 100%;
+    padding-top: 3rem;
+    opacity: 0.3;
+}
+.packsBGtittle{
+    position: relative;   
+    color: white;
+    padding-top: 6rem;
+    padding-left: 2rem;
+    margin: 0px 0px 20px;
+    font-weight: 1000;
+    font-size: 60px;
+    letter-spacing: 3px;
+}
+.packsBGsubtittle{
+    position: relative;
+    color: white;
+    padding-left: 2rem;
+    margin: 0px 0px 20px;
+    font-size: 19px;
+    line-height: 27px;
+    width: 53%;
+}
+.Seeallpacks{
+    text-decoration: underline;
+    padding-bottom: 2px;
+    position: relative;   
+    color: white;
+    padding-left: 2rem;
+    margin: 0px 0px 20px;
+    font-size: 15px;
+    line-height: 27px;
+}
+.bgshowmain{
+    width: 95%;
+    height: 480px;
+    margin: auto;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+.bgshow{
+    width: 90%;
+    height: 470px;
+    overflow: hidden;
+    background-image: url('http://localhost:3000/static/media/bgshow.7e38e113.png');
+    background-size: 100% 100%;
+    margin-right: 0;
+    margin-left: 5rem !important;
+}
+.bgpremiumpack img{
+    width: 32%;
+    height: 470px;
+    position: absolute;
+}
+.bgshowinner{
+    color: white;
+    background-color: rgb(223, 68, 48);
+    padding: 1.5rem;
+    position: relative;
+    width: 95.5%;
+}
+.bgshowcont{
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+.bgshowtiming{
+    font-size: 25px;
+    font-weight: 1000;
+}
+.Alarm{
+    float: right;
+    margin-top: -5px;
+    zoom: 1.4;
+    cursor: pointer;
+}
+.bgshowtittle{
+    position: relative;
+    color: white;
+    padding-top: 2rem;
+    padding-left: 2rem;
+    margin: 0px 0px 20px;
+    font-weight: 800;
+    filter: drop-shadow(rgb(0, 0, 0) 0px 0px 7px);
+    font-size: 60px;
+    letter-spacing: 3px;
+}
+.bgshowsubtittle{
+    position: relative;
+    color: white;
+    padding-top: 2rem;
+    padding-left: 2rem;
+    margin: 0px 0px 20px;
+    filter: drop-shadow(rgb(0, 0, 0) 0px 0px 7px);
+    font-size: 20px;
+}
+.jfhUHz img{
+    height: 250px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 2rem;
+    max-width: 250px;
+    filter: drop-shadow(rgb(0, 0, 0) 11px 20px 20px);
+    transform: rotate(
+8deg
+);
+}
+.jfhUHz img:hover{
+    zoom: 1.02;
+    cursor: pointer;
+}
+.main-premiumpacks{
+    width: 45rem;
+    height: 470px;
+    overflow: hidden !important;
+    background-size: 100% 100%;
+    margin-left: 1rem;
+    background-repeat: no-repeat;
+    background-image: url('http://localhost:3000/static/media/bgpremiumpack.d85eeef7.png');
+}
+.premiumpackmain{
+    width: 100%;
+    position: sticky;
+    height: 10rem;
+}
+.premiumpack img{
+    filter: drop-shadow(rgb(0, 0, 0) 11px 20px 20px);
+    position: absolute;
+    height: 200px;
+    margin-top: 2rem;
+    margin-left: 6rem;
+    transform: rotate(2deg);
+
+}
+.premiumpacksoldout img{
+    width: 250px;   
+    position: relative;
+    margin-left: 4.5rem;
+    margin-top: 5.5rem;
+}
+
+.premiumpackmain:hover{
+    zoom: 1.02 !important;
+    cursor: pointer;
+}
+.premiumpacktittlemain{
+    margin-top: 6rem !important;
+    color: white;
+    position: relative;
+}
+.premiumpacktittle{
+    color: white;
+    width: 40%;
+    padding-left: 2rem;
+    font-weight: 800;
+    filter: drop-shadow(rgb(0, 0, 0) 0px 0px 7px);
+    font-size: 40px;
+}
+.premiumpacksubtittle{
+    color: white;
+    padding-left: 2rem;
+    filter: drop-shadow(rgb(0, 0, 0) 0px 0px 7px);
+    font-size: 20px;
+    width: 50%;
+    margin-bottom: 5rem;
+}
+.MuiGrid-grid-sm-7 {
+    max-width: 85.333333% !important;
+    flex-basis: 57.333333% !important;
+}
+.bOCkKA {
+    font-size: 20px;
+    margin-top: 1rem !important;
+    margin-left: 2rem;
+    color: rgb(255, 255, 255);
+    font-family: Shapiro, sans-serif;
+    font-weight: 900;
+    text-transform: uppercase;
+    line-height: 1;
+}
+.bOCkKA-profiles{
+    margin-top: 2rem;
+    width: 100%;
+    display: flex;
+    overflow: auto;
+}
+.bOCkKA-profiles img{
+    width: 80px;
+}
+.profiles-img{
+    width: 200px;
+    margin-left: 5rem;
+    text-align: center;
+}
+.profiles-name{
+    color: white;
+    font-size: 18px;
+}
+.profiles-namecheck{
+    color: white;
+    background-color: rgb(242, 35, 132);
+    padding: 8px 2px 0 2px;
+    zoom: 0.7;
+    border-radius: 50%;
+    margin-left: 1rem;
+}
+.heromain{
+    display: flex;
+    padding-left: 4rem;
+    width: 95.5%;
+    height: 40rem;
+    border-bottom: 10px solid blue;
+    margin-top: 3rem;
+    overflow: hidden;
+}
+.spotlightstripes img{
+    position: absolute;
+}
+.derrickrosebw img{
+    position: relative;
+    margin-left: 1rem;
+    width: 35rem;
+}
+.spotlightchevron img{
+    position: relative;
+    margin-top: 2rem;
+    margin-left: -27rem;
+}
+.spotlightorange img{
+    position: relative;
+    height: 100rem;
+    margin-top: -8.5rem;
+    margin-left: -10rem;
+}
+.playblack img{
+    position: relative;
+    width: 13rem;
+}
+.moment-main{
+    margin-left: -5rem;
+    position: relative;
+    margin-top: 10rem;
+}
+.JAMES{
+    color: white;
+    font-size: 55px;
+    margin-top: 1rem;
+    font-weight: 1000;
+}
+.moment{
+    color: white;
+    margin-top: 1rem;
+    background-color: red;
+    width: 90px;
+}
+.holo{
+    color: rgb(209, 209, 209);
+    font-size: 19px;
+    margin-top: 1rem;
+}
+.holo span{
+    color: gray;
+    zoom: 0.7;
+}
+.Rockets Button{
+    margin-top: 1rem;
+    color: white;
+    border: 1px solid white;
+}
+.TopShotWord img{
+    float: right;
+    width: 3rem;
+}
+.TopShotcont{
+    position: relative;
+    color: white;
+    padding: 1rem 0 0 2rem;
+}
+.POPULAR-SHOWCASES{
+    font-size: 45px;
+    font-weight: 900;
+    letter-spacing: 2px;
+}
+.watch-more{
+    float: right;
+    cursor: pointer;
+    text-decoration: underline;
+}
+.comment{
+    margin-top: 1rem;
+    letter-spacing: 2px;
+}
+.topshotcard{
+    background-color: rgb(33, 33, 39);
+    padding: 20px;
+    margin: auto;
+    border-radius: 8px;
+    width: 370px;
+    min-height: 10rem;
+}
+.topshotcardmain{
+    margin-left: 3rem;
+    position: relative;
+    display: flex;
+    margin-top: 2rem;
+}
+.card-video video{
+    width: 100%;
+}
+.Beebs{
+    color: white;
+    margin-top: 1rem;
+    font-size: 25px;
+}
+.Rate{
+    color: white;
+    float: right;
+    font-size: 20px;
+    margin-top: -1rem;
+}
+.Rate span{
+    margin-left: 10px;
+    zoom: 0.7;
+}
+.createdby{
+    color: gray;
+    margin-top: 1rem;
+    margin-left: 10px;
+}
+.createdby-name{
+    color: white;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+.buttom{
+    background-color:rgb(24, 63, 205);
+    width: 100%;
+    margin-top: 2rem;
+    height: 40rem;
+}
+.discoveryblockbg img{
+    margin-left: 40%;
+    position: absolute;
+    margin-top: 2rem;
+}
+.Mobilegame{
+    position: relative;
+    float: right;
+    zoom: 1.4;
+    margin-right: 11rem;
+    margin-top: .2rem;
+}
+.buttom-cont-main{
+    padding-top: 1rem;
+    position: relative;
+    margin-left: 2rem;
+}
+.buttom-comming-soon{
+    color: black;
+    letter-spacing: 2px;
+    background-color: white;
+    width: 10rem;
+    height: 25px;
+    padding-top: 5px;
+}
+.HARDCOURT{
+    color: white;
+    margin-top: 10rem;
+    line-height: 1;
+    font-size: 45px;
+    font-weight: 1000;
+}
+.subcont{
+    color: white;
+    font-size: 29px;
+    width: 40%;
+    font-size: 400;
+    margin-top: 2rem;
+}
+.buttom-cont-main .Rockets Button{
+    margin-top: 3rem;
+    width: 15rem;
+}
+.sign-up-now{
+    margin-top: -8px;
+    position: relative;
+    background-color: blue;
+    height: 8rem;
+    border-bottom: 3px solid gray;
+}
+.signupreason{
+    color: white;
+    font-size: 30px;
+    font-weight: bolder;
+    zoom: 0.7;
+    padding-top: 5rem;
+}
+.sign-up-now .Rockets Button{
+    width: 10rem;
+    float: right;
+    margin-right: 2rem;
+    margin-top: -2rem;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+    .content-tittle {
+        font-weight: 800;
+        font-size: 47px;
+    }
+    .importent-table{
+        width: 68%;
+        margin-left: 2rem;
+        height: 50rem;
+        padding-left: 2.5rem;
+    }
+    .MuiGrid-spacing-xs-10 > .MuiGrid-item {
+        margin-left: 1rem !important;
+    }
+    .grid-content{
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .table-background {
+        margin-top: 24rem;
+        padding-top: 35rem;
+    }
+    .bgshowmain{
+        width: 95%;
+        height: 410px;
+        zoom: 0.8;
+        margin: auto;
+        overflow-x: auto;
+        overflow-y: auto;
+    }
+    .main-premiumpacks{
+        width: 25rem;
+        height: 470px;
+        zoom: 0.8;
+        margin-left: 21.3rem;
+    }
+    .bgshow{
+        width: 42rem;
+        height: 410px;
+        overflow: hidden;
+        background-image: url('http://localhost:3000/static/media/bgshow.7e38e113.png');
+        background-size: 100% 100%;
+        margin-right: 0;
+        zoom: 0.8;
+        padding-bottom: 4rem;
+        margin-left: 5rem !important;
+    }
+    .bgshowtittle{
+        width: 80%;
+        letter-spacing: 0;
+        font-size: 55px;
+    }
+    .premiumpacktittle{
+        color: white;
+        width: 100%;
+        padding-left: 2rem;
+        font-weight: 800;
+        filter: drop-shadow(rgb(0, 0, 0) 0px 0px 7px);
+        font-size: 40px;
+    }
+    .premiumpacksubtittle{
+        color: white;
+        padding-left: 2rem;
+        filter: drop-shadow(rgb(0, 0, 0) 0px 0px 7px);
+        font-size: 20px;
+        width: 50%;
+        margin-bottom: 5rem;
+    }
+  }

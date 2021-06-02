@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="49px" height="324px" viewBox="0 0 49 324" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group 19</title>
+    <defs>
+        <rect id="path-1" x="0.48" y="0" width="47.52" height="322.56"></rect>
+    </defs>
+    <g id="Discover---UI-[WIP]---HANDOFF---april-29-Denise" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="discover---desktop" transform="translate(-231.000000, -3383.000000)">
+            <g id="Group-19" style="mix-blend-mode: screen;" transform="translate(231.095783, 3383.754503)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="Mask" fill="#D8D8D8" xlink:href="#path-1"></use>
+                <g style="mix-blend-mode: difference;" mask="url(#mask-2)" fill="#FFFFFF">
+                    <g transform="translate(22.340000, 159.802880) rotate(90.000000) translate(-22.340000, -159.802880) translate(-141.660000, 70.302880)">
+                        <polygon id="Fill-2" points="291.84 0 327.36 63.36 327.36 42.9820374 303.26446 0"></polygon>
+                        <polygon id="Fill-3" points="267.84 0 327.36 107.52 327.36 87.0481149 279.172978 0"></polygon>
+                        <polygon id="Fill-4" points="242.88 0 327.36 151.68 327.36 131.169862 254.304337 0"></polygon>
+                        <polygon id="Fill-5" points="218.88 0 317.77351 178.56 327.36 178.56 327.36 175.331811 230.255226 0"></polygon>
+                        <polygon id="Fill-6" points="194.88 0 293.892343 178.56 305.28 178.56 206.267657 0"></polygon>
+                        <polygon id="Fill-7" points="169.92 0 268.932343 178.56 280.32 178.56 181.307657 0"></polygon>
+                        <polygon id="Fill-8" points="145.92 0 244.932343 178.56 256.32 178.56 157.307657 0"></polygon>
+                        <polygon id="Fill-9" points="120.96 0 219.972343 178.56 231.36 178.56 132.347657 0"></polygon>
+                        <polygon id="Fill-10" points="96.96 0 195.972343 178.56 207.36 178.56 108.347657 0"></polygon>
+                        <polygon id="Fill-11" points="72 0 171.012343 178.56 182.4 178.56 83.3876571 0"></polygon>
+                        <polygon id="Fill-12" points="48 0 147.012343 178.56 158.4 178.56 59.3876571 0"></polygon>
+                        <polygon id="Fill-13" points="24 0 123.012343 178.56 134.4 178.56 35.3876571 0"></polygon>
+                        <polygon id="Fill-14" points="0 0 0 1.66736106 98.055904 178.56 109.44 178.56 10.4586201 0"></polygon>
+                        <polygon id="Fill-15" points="0 45.5198682 74.0033356 178.56 85.44 178.56 0 24.96"></polygon>
+                        <polygon id="Fill-16" points="0 89.6604438 49.1282022 178.56 60.48 178.56 0 69.12"></polygon>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

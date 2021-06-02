@@ -1,0 +1,98 @@
+.packs-tittle{
+    font-size: 35px;
+    padding-top: 3rem;
+    color: white;
+    padding-left: 2rem;
+    zoom: 1.5;
+    font-weight: 1000;
+}
+.packs-tittle span{
+    text-decoration: underline;
+}
+.Open-packs-main{
+    background-color: rgb(33, 33, 39);
+    margin-bottom: 2rem;
+    height: 20rem;
+    margin-top: 4rem;
+    padding-top: 10rem;
+}
+.Open-packs{
+    color: white;
+    font-size: 50px;
+    font-weight: 900;
+    text-align: center;
+}
+.packs-grid{
+    text-align: center;
+    margin-left: 1rem;
+}
+.question{
+    color: white;
+    margin-top: 2rem;
+    font-size: 20px;
+    font-weight: 1000;
+}
+.question span{
+    color: red;
+}
+.answer{
+    color: white;
+    margin-top: 1rem;
+    font-size: 20px;
+}
+.answer span{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.packs-offer{
+    height: 18rem;
+    zoom: 1.2;
+}
+.REGISTRATION-main{
+    margin-left: 5rem;
+    margin-bottom: 2rem;
+}
+.REGISTRATION{
+    color: white;
+    width: 12rem;
+    font-size: 15px;
+    letter-spacing: 2px;
+}
+.series{
+    color: gray;
+    margin-top: 10px;
+    font-size: 14px;
+}
+.cost{
+    font-size: 25px;
+    color: white;
+    font-weight: 900;
+    margin-top: 10px;
+}
+.solded{
+    color: rgb(225, 70, 67);
+    margin-top: 5px;
+    font-size: 14px;
+}
+.packs-offer-tittle{
+    color: white;
+    font-size: 30px;
+    margin-left: 2rem;
+    font-weight: 900;
+}
+.packs-offer-subtittle{
+    color: white;
+    font-size: 19px;
+    font-weight: 300;
+    margin-left: 2rem;
+    margin-top: 1rem;
+}
+.view-more{
+    color: white;
+    margin: auto;
+    margin-bottom: 3rem;
+    width: fit-content;
+    cursor: pointer;
+    letter-spacing: 3px;
+    text-decoration: underline;
+}
