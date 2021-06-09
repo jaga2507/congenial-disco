@@ -22,7 +22,7 @@ export default function Packs() {
             <div style={{marginTop:'3rem'}}>
             <div className='bgshowmain'>
                 <Grid container spacing={0}>
-                <Grid item xs={8} sm={8}>
+                <Grid item xs={10} sm={8}>
                     <div className='bgshow'>
                     <div className='bgshowinner'>
                         <div>
@@ -54,7 +54,7 @@ export default function Packs() {
                     </Grid>
                     </div>
                 </Grid>
-                <Grid item xs={4} sm={4}>
+                <Grid item xs={12} sm={4}>
                     <div className='main-premiumpacks'>
                     <div className='premiumpackmain'>
                         <div className='premiumpack'>
@@ -116,7 +116,7 @@ export default function Packs() {
                     </Grid>
                 </div>
             </div>
-            <div>
+            <div className='packs-offer-main'>
                 <div className='packs-offer-tittle'>
                     FEATURED PACKS
                 </div>

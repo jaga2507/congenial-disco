@@ -96,3 +96,30 @@
     letter-spacing: 3px;
     text-decoration: underline;
 }
+@media only screen and (max-width: 600px) {
+    .packs-offer-main{
+        margin-top: 1rem;
+    }
+    .Open-packs{
+        zoom: 0.7;
+        width: 90%;
+        margin: auto;
+    }
+    .premiumpack img{
+        margin-left: 4rem !important;
+    }
+    .premiumpacksoldout img{
+        margin-left: 2rem !important;
+    }
+    .Open-packs-main {
+        background-color: rgb(33, 33, 39);
+        margin-bottom: 2rem;
+        height: 37rem;
+        margin-top: 15rem;
+        padding-top: 3rem;
+    }
+    .packs-tittle{
+        padding-top: 8rem;
+        zoom: 0.9;
+    }
+}

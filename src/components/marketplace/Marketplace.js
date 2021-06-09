@@ -20,7 +20,7 @@ const useStyles = makeStyles((theme) => ({
   root: {
     '& > *': {
       margin: theme.spacing(1),
-      width: '75ch',
+      width: '75%',
       marginTop:'1rem',
       marginBottom:'2rem'
     },
@@ -90,7 +90,7 @@ export default function Marketplace() {
                     </div>
                   </div>
                   <div className='market-card-main'>
-                    <div>
+                    <div className='marketcarddivmain'>
                       <div className='market-card'>
                         <img src={game} />
                       </div>
@@ -98,7 +98,7 @@ export default function Marketplace() {
                         Latest Moments
                       </div>
                     </div>
-                    <div>
+                    <div className='marketcarddivmain'>
                       <div className='market-card'>
                         <img src={listingsimg2} />
                       </div>
@@ -106,17 +106,12 @@ export default function Marketplace() {
                         Most Valuable Listings
                       </div>
                     </div>
-                    <div>
-                      <div className='magic-main'>
-                        <div className='magic-bg'>
-                          <img src={magic} />
-                        </div>
-                        <div className='magic'>
-                          <img src={magic} />
-                        </div>
+                    <div className='marketcarddivmain'>
+                      <div className='market-card'>
+                        <img src={listingsimg2} />
                       </div>
                       <div className='name-of-card'>
-                        warriors Moments
+                        Most Valuable Listings
                       </div>
                     </div>
                   </div>

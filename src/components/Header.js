@@ -27,7 +27,7 @@ export default function Headre() {
                             </div>
                         </div>
                     </Grid>
-                    <Grid item xs={7}>
+                    <Grid className='tab-buttons' item xs={7}>
                         <div className='tab-buttons'>
                             <Link className='tab-buttons-Link' to="/packs">
                                 PACKS
@@ -51,8 +51,47 @@ export default function Headre() {
                             <Link to="/Register" className='sign-up'>
                                 SIGN UP
                             </Link>
-                            <div className='get-in'>
-                                GET IN
+                        </div>
+                        <div>
+                            <div class="toggle-menu">
+                                <label for="toggle-btn">
+                                    <div className='get-in'>
+                                        GET IN
+                                    </div>
+                                </label>
+                                <input id="toggle-btn" type="checkbox" />
+                                <ul class="toggle-items">
+                                    <li class="toggle-item-1">
+                                        <Link className='tab-buttons-Link' to="/packs">
+                                            PACKS
+                                        </Link>
+                                    </li>
+                                    <li class="toggle-item-2">
+                                        <Link className='tab-buttons-Link' to="/marketplace">
+                                            MARKETPLACE
+                                        </Link>
+                                    </li>
+                                    <li class="toggle-item-3">
+                                        <Link className='tab-buttons-Link' to="/community">
+                                            COMMUNITY
+                                        </Link>
+                                    </li>
+                                    <li class="toggle-item-4">
+                                        <Link className='tab-buttons-Link' to="/common">
+                                            COMMON QUESTIONS
+                                        </Link>
+                                    </li>
+                                    <li class="toggle-item-5">
+                                        <Link className='tab-buttons-Link' to="/login">
+                                            LOGIN
+                                        </Link>
+                                    </li>
+                                    <li class="toggle-item-6">
+                                        <Link to="/Register" className='tab-buttons-Link'>
+                                            SIGN UP
+                                        </Link>
+                                    </li>
+                                </ul>
                             </div>
                         </div>
                     </Grid>

@@ -52,8 +52,6 @@ export default function Footer() {
                             <div style={{cursor:'pointer'}}>
                                 Newsletter
                             </div>
-                        </div>
-                        <div className='footermain-right'>
                             <div style={{cursor:'pointer'}}>
                                 Discord
                             </div>

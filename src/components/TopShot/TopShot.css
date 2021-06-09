@@ -166,13 +166,6 @@
     font-size: 15px;
     line-height: 27px;
 }
-.bgshowmain{
-    width: 95%;
-    height: 480px;
-    margin: auto;
-    overflow-x: hidden;
-    overflow-y: hidden;
-}
 .bgshow{
     width: 90%;
     height: 470px;
@@ -245,7 +238,7 @@
     cursor: pointer;
 }
 .main-premiumpacks{
-    width: 45rem;
+    width: 90%;
     height: 470px;
     overflow: hidden !important;
     background-size: 100% 100%;
@@ -430,13 +423,15 @@
     padding: 20px;
     margin: auto;
     border-radius: 8px;
-    width: 370px;
+    width: 17rem;
     min-height: 10rem;
 }
 .topshotcardmain{
     margin-left: 3rem;
     position: relative;
     display: flex;
+    flex-wrap: wrap-reverse;
+    gap: 20px;
     margin-top: 2rem;
 }
 .card-video video{
@@ -544,11 +539,54 @@
         font-weight: 800;
         font-size: 47px;
     }
+    .topshot-bg-img img{
+        display: none;
+    }
+
+    .grid-content{
+        margin-top: 70px;
+    }
+    .content-tittle{
+        zoom: 0.6;
+    }
+    .content{
+        zoom: 0.9;
+        width: 80%;
+    }
+    .Button-event Button{
+        width: 85%;
+    }
+    .profiles img{
+        zoom: 0.7;
+    }
+    .joined-fans{
+        width: 60%;
+        zoom: 0.8;
+    }
+    .grid-video{
+        margin-top: 1rem;
+    }
+    .grid-video video{
+        width: 90%;
+    }
+    .tagbgshow{
+        zoom: 0.8;
+    }
+    .TopShotWord img{
+        display: none !important;
+    }
+    .sign-up-now{
+        display: none;
+    }
     .importent-table{
-        width: 68%;
-        margin-left: 2rem;
+        width: 58%;
+        margin-left: 3.5rem;
         height: 50rem;
-        padding-left: 2.5rem;
+        padding-left: 4rem;
+        zoom: 0.8;
+    }
+    .discoveryblockbg img{
+        width: 100%;
     }
     .MuiGrid-spacing-xs-10 > .MuiGrid-item {
         margin-left: 1rem !important;
@@ -558,34 +596,60 @@
         padding-right: 0;
     }
     .table-background {
-        margin-top: 24rem;
-        padding-top: 35rem;
+        margin-top: 20rem;
+        padding-top: 30rem;
+        width: 100%;
+    }
+    .select-text{
+        width: 85%;
+        zoom: 0.7;
+    }
+    .select-tittle{
+        zoom: 0.7;
+    }
+    .western-teams img{
+        zoom: 0.8;
+    }
+    .packBG img{
+        display: none;
+    }
+    .packBGmain{
+        height: 46rem;
+    }
+    .packsBGtittle{
+        zoom: 0.4;
+        width: 80%;
+    }
+    .packsBGsubtittle{
+        zoom: 0.7;
     }
     .bgshowmain{
+        display: flex;
+        flex-wrap: wrap;
         width: 95%;
         height: 410px;
         zoom: 0.8;
         margin: auto;
-        overflow-x: auto;
-        overflow-y: auto;
     }
     .main-premiumpacks{
-        width: 25rem;
-        height: 470px;
-        zoom: 0.8;
-        margin-left: 21.3rem;
+        width: 80%;
+        height: 400px;
+        zoom: 0.7;
+        margin-left: 4rem;
     }
     .bgshow{
-        width: 42rem;
+        margin-bottom: 2rem;
+        width: 96%;
         height: 410px;
         overflow: hidden;
         background-image: url('http://localhost:3000/static/media/bgshow.7e38e113.png');
         background-size: 100% 100%;
         margin-right: 0;
-        zoom: 0.8;
+        zoom: 0.7;
         padding-bottom: 4rem;
         margin-left: 5rem !important;
     }
+    
     .bgshowtittle{
         width: 80%;
         letter-spacing: 0;
@@ -606,5 +670,38 @@
         font-size: 20px;
         width: 50%;
         margin-bottom: 5rem;
+    }
+    .HARDCOURT{
+        display: none;
+    }
+    .subcont{
+        display: none;
+    }
+    .buttom-comming-soon{
+        display: none;
+        background: none;
+    }
+    .heromain{
+        display: none;
+    }
+    .discoveryblockbg img{
+        margin-left: 0%;
+        position: absolute;
+        margin-top: 2rem;
+        zoom: 0.5;
+    }
+    .Mobilegame{
+        position: relative;
+        float: right;
+        zoom: 0.7;
+        margin-right: 11rem;
+        margin-top: .2rem;
+    }
+    .topShotwordmain{
+        width: 87%;
+    }
+    .buttom{
+        padding-top: 2rem;
+        height: 28rem;
     }
   }

@@ -67,7 +67,7 @@ export default function Login() {
                 By signing up for Dapper, you acknowledge that you have read and agree to all applicable <span>Terms of Service</span> and our <span>Privacy Policy</span>
             </div>
         </div>
-        <div className='text'>
+        <div className='text-login'>
             What is Dapper and why do I need it?
         </div>
     </div>

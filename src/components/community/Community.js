@@ -16,7 +16,7 @@ const useStyles = makeStyles((theme) => ({
     flexGrow: 1,
     '& > *': {
       margin: theme.spacing(1),
-      width: '100%',
+      width: '95%',
     },
     color:'white',
   },
@@ -26,6 +26,7 @@ const useStyles = makeStyles((theme) => ({
     width:'95%',
     height:'3.5rem',
     marginTop:'.5rem',
+    marginLeft:'7px',
     '&:hover': {
       background: "rgb(50, 94, 255)",
    },

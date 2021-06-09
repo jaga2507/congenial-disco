@@ -201,7 +201,7 @@ export default function Login() {
                 Don’t have an account? Register here
             </Link>
         </div>
-        <div className='text'>
+        <div className='text-login'>
             What is Dapper and why do I need it?
         </div>
     </div>

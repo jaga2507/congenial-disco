@@ -175,9 +175,9 @@ export default function TopShotPage() {
             See All Packs
           </div>
         </div>
-        <div className='bgshowmain'>
+      <div className='bgshowmain'>
         <Grid container spacing={0}>
-          <Grid item xs={8} sm={8}>
+          <Grid className='tagbgshow' item xs={10} sm={8}>
             <div className='bgshow'>
               <div className='bgshowinner'>
                 <div>
@@ -209,7 +209,7 @@ export default function TopShotPage() {
               </Grid>
             </div>
           </Grid>
-          <Grid item xs={4} sm={4}>
+          <Grid item xs={12} sm={4}>
             <div className='main-premiumpacks'>
               <div className='premiumpackmain'>
                 <div className='premiumpack'>
@@ -291,7 +291,7 @@ export default function TopShotPage() {
           </div>
         </div>
       </div>
-      <div>
+      <div className='topShotwordmain'>
         <div className='TopShotWord'>
           <img src={TopShotWord} />
         </div>
@@ -404,18 +404,18 @@ export default function TopShotPage() {
           <img src={Mobilegame} />
         </div>
         <div className='buttom-cont-main'>
-        <div className='buttom-comming-soon'>
-          COMMING SOON
-        </div>
-        <div className='HARDCOURT'>
-          <span style={{textDecoration:'underline'}}>H</span>ARDCOURT
-        </div>
-        <div className='subcont'>
-        Give your starting five superpowers by equipping them with epic skills from your collection of Top Shot Moments.
-        </div>
-            <div className='Rockets'>
-              <Button>Learn More</Button>
-            </div>
+          <div className='buttom-comming-soon'>
+            COMMING SOON
+          </div>
+          <div className='HARDCOURT'>
+            <span style={{textDecoration:'underline'}}>H</span>ARDCOURT
+          </div>
+          <div className='subcont'>
+            Give your starting five superpowers by equipping them with epic skills from your collection of Top Shot Moments.
+          </div>
+          <div className='Rockets'>
+            <Button>Learn More</Button>
+          </div>
         </div>
       </div>
       <div className='sign-up-now'>

@@ -76,7 +76,7 @@ export default function Community() {
               Collect 9 Moments to get this reward
             </div>
             <div style={{backgroundColor:'black',height:'15rem',marginTop:'1rem'}}>
-              <img style={{width:'160px',marginTop:'2rem',marginLeft:'6rem'}} src={playblack} />
+              <img style={{width:'160px',marginTop:'2rem',marginLeft:'27%'}} className='playbackstyle' src={playblack} />
             </div>
             <div style={{display:'flex',marginTop:'2rem'}}>
               <div style={{width:'90%',height:'10px',backgroundColor:'gray'}}>
